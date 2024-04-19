@@ -14,7 +14,10 @@
     "vite": "^5.2.9"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "deploy": "gh-pages -d dist",
+    "build-only": "vite build"
+
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
